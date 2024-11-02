@@ -97,7 +97,7 @@ def obstacle_randmov(obstacle_list):
       x = element[0] + random.uniform(-10, 10)
       y = element[1] + random.uniform(-10, 10)
     
-   new_list.append((x, y))
+      new_list.append((x, y))
    return new_list
 
 # Track computation time
